@@ -43,3 +43,17 @@ This application demonstrates enterprise-grade patterns like asynchronous commun
   - 📊 Monitoring with **Prometheus + Grafana**
 
 ---
+
+## 📦 Current Modules
+
+| 🧩 Service Name  | 📄 Description                                                                                                               |
+|------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| `activityservice`| Handles user fitness activities like workouts and logs. Stores, updates and tracks progress for analytics.                    |
+| `aiservice`      | Processes data using AI such as recommendations and personalized fitness insights. Helps users follow smart training plans.   |
+| `configserver`   | Central place to store and manage configuration for all microservices. Makes updates easier without redeploying each service. |
+| `eureka`         | Service discovery server that lets microservices find and communicate with each other. Keeps the system scalable and flexible.|
+| `gateway`        | Single entry point for all client requests. Protects backend services and manages routing, authentication, and load balancing.|
+| `userservice`    | Manages user accounts, profiles, and authentication data. Handles registration, login, and user information storage.          |
+
+---
+![App UI](https://github.com/Sumnatkumar/fitness-microservices/blob/main/ArchitfitnessAI.png)
