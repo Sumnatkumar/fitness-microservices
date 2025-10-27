@@ -26,3 +26,20 @@ This application demonstrates enterprise-grade patterns like asynchronous commun
 | **Cloud & Infra**| ☁️ _Planned:_ Docker · AWS (EC2, S3) · GitHub Actions CI/CD                          |
 
 ---
+
+
+## 🧱 Architecture Highlights
+
+- 🧬 **Microservices Pattern** — Modular, loosely coupled services for scalability.
+- 📩 **Apache Kafka** — Asynchronous communication via producer-consumer architecture.
+- 🔧 **Spring Boot** — Auto-configured, production-ready Java microservices.
+- 💾 **Spring Data JPA + MySQL** — Clean ORM-based persistence layer.
+- 📦 **DTO + Events** — Clean separation between domain models and transport objects.
+- 🔮 **Future Enhancements**:
+  - 🐳 Docker-based deployments
+  - 🔍 Service discovery with **Eureka**
+  - 🌐 API Gateway via **Spring Cloud Gateway**
+  - 🛡️ Circuit breaker with **Resilience4j**
+  - 📊 Monitoring with **Prometheus + Grafana**
+
+---
