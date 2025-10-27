@@ -57,3 +57,27 @@ This application demonstrates enterprise-grade patterns like asynchronous commun
 
 ---
 ![App UI](https://github.com/Sumnatkumar/fitness-microservices/blob/main/ArchitfitnessAI.png)
+
+
+---
+
+## 📨 Kafka Topics
+
+| 🧵 Topic Name              | 🔍 Purpose                                                  |
+|----------------------------|--------------------------------------------------------------|
+| `kafka-topic-name`         | 🔄 Requests for questions based on `AIService`              |
+| `Kafka-topic-name`         | 📤 Responds with a list of matching `ActivityService` DTOs  |
+
+---
+
+## 🛠️ To-Do /  Features
+
+- [ ] 🔐 Implement `user-service` with authentication (JWT + Spring Security)
+- [ ] 🌐 Add API Gateway using Spring Cloud Gateway
+- [ ] 🐳 Dockerize all services for containerized deployment
+- [ ] 📁 MongoDB integration for unstructured logs
+- [ ] 💻 UI Frontend with **React + Material UI**
+- [ ] 🧪 Add unit and integration tests using **JUnit + TestContainers**
+- [ ] ☁️ Deploy to **Netlify** using GitHub Actions
+
+---
